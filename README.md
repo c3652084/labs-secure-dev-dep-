@@ -1,1 +1,136 @@
 # labs-secure-dev-dep-
+
+# Hospital Management Mobile Application
+
+## Module
+
+COM6003 – Secure Software Development
+Leeds Trinity University
+
+## Project Overview
+
+This project is a mobile hospital management application developed as part of the COM6003 laboratory coursework. The aim of the project is to demonstrate the development of a secure Android application while implementing core healthcare management functionality.
+
+The application allows hospital staff to register patients, schedule appointments, store electronic health records and apply security protections to sensitive medical information.
+
+The system was developed using Android Studio with Java and integrates several Android frameworks for secure data storage, authentication and database management.
+
+---
+
+## Technologies Used
+
+The following technologies and libraries were used in the development of the application:
+
+* Java
+* Android Studio
+* Room Database (SQLite)
+* Retrofit API Client
+* ZXing Barcode Scanner
+* Android Biometric Authentication
+* Android Security Crypto Library
+* JUnit Testing Framework
+
+---
+
+## Lab 1 – Patient Registration
+
+The first laboratory task focuses on implementing patient registration functionality within the application.
+
+Features implemented:
+
+* Patient registration form
+* NHS number validation
+* Input validation for user fields
+* Secure data storage using Room database
+* Error handling for invalid input
+
+Patient details stored include:
+
+* NHS number
+* Full name
+* Date of birth
+* Contact information
+
+This lab establishes the core database structure used throughout the rest of the application.
+
+---
+
+## Lab 2 – Appointment Scheduling and Authentication
+
+The second laboratory task extends the application by introducing appointment scheduling and authentication features.
+
+Features implemented:
+
+* Appointment booking system
+* Conflict detection for appointments
+* Biometric authentication using fingerprint login
+* API communication using Retrofit
+* Network error handling
+
+This functionality allows staff to manage appointments while maintaining secure authentication for system access.
+
+---
+
+## Lab 3 – Electronic Health Records (EHR)
+
+The third laboratory task focuses on clinical data management through electronic health records.
+
+Features implemented:
+
+* Recording of patient clinical information
+* Storage of vital signs including heart rate, temperature and glucose
+* Allergy recording
+* Barcode scanning for patient identification
+* Data storage using Room database
+
+This lab simulates how hospital staff can manage and retrieve patient medical information securely.
+
+---
+
+## Lab 4 – Security Implementation
+
+The final laboratory task focuses on improving the security of the application.
+
+Security features implemented include:
+
+* Encrypted SharedPreferences for secure data storage
+* Secure handling of sensitive patient information
+* Input validation to prevent invalid or malicious data
+* Parameterised database queries to reduce injection risks
+
+These measures demonstrate secure software development practices within a healthcare application environment.
+
+---
+
+## Testing
+
+Unit tests were implemented to validate the input validation utilities used within the application.
+
+The following validations were tested:
+
+* NHS number format validation
+* Date of birth format validation
+* Contact information validation
+
+Testing was performed using the JUnit testing framework.
+
+---
+
+## How to Run the Application
+
+1. Clone the repository
+
+git clone https://github.com/YOURUSERNAME/COM6003-Hospital-Management-App.git
+
+2. Open the project in Android Studio
+
+3. Allow Gradle to synchronise the project dependencies
+
+4. Run the application using either an Android emulator or a physical device
+
+
+---
+
+## Author
+
+This project was developed as coursework for the COM6003 Secure Software Development module at Leeds Trinity University.
