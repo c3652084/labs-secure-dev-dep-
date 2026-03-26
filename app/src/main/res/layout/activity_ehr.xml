@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lab 3 - EHR"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etEhrPatientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient Name" />
+
+        <EditText
+            android:id="@+id/etAllergies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Allergies"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etHeartRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Heart Rate"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Body Temperature"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etGlucose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood Glucose"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnSaveEhr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save EHR"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnScanBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan Barcode Demo"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvEhrResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
